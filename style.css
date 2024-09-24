@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: gainsboro;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    background-color:white;
+    height: 520px;
+    width: 360px;
+    position: fixed;   
+    left: 36%;
+    text-align: center;
+    top: 22%;
+    border-radius: 15px;
+}
+
+.container .image img {
+    height: 160px;
+    border-radius: 15px;
+    width: 100%;
+    background-size: cover;
+}
+
+.container .heading h1 {
+    margin-top: 20px;
+    color: black;
+}
+
+.container .para p {
+    color: rgba(0, 0, 0, 0.6);
+
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.container .plan {
+    height: 60px;
+    width: 300px;
+    background-color:rgb(184, 184, 193);
+    margin-top: 20px;
+    margin-left: 8%;
+    border-radius: 15px;
+}
+
+.container .plan img {
+    background-size: contain;
+    height: 40px;
+    margin-right: 200px;
+    margin-top: 8px;
+}
+
+.container .content {
+    position: absolute;
+    left: 120px;
+    bottom: 148px;
+}
+
+.container .content h2 {
+    font-size: 18px;
+}
+
+.container .content p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.plan u {
+    color: slateblue;
+    font-size: 18px;
+    position: relative;
+    bottom: 34px;
+    left: 100px;
+}
+
+.container .agree {
+    height: 50px;
+    width: 300px;
+    background-color: blue;
+    margin-top: 20px;
+    margin-left: 8%;
+    border-radius: 15px;
+}
+
+.container .agree h3 {
+    padding: 12px;
+
+}
+.container  .cancel h3 {
+    margin-top: 22px;
+}
+.vs {
+    display: none;
+}
